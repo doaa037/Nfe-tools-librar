@@ -1,0 +1,24 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.main {
+  max-width: 1060px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.8rem 1.2rem 4rem;
+  flex: 1;
+}
+.footer {
+  text-align: center;
+  padding: 1.3rem;
+  font-size: 0.8rem;
+  color: #64748B;
+  border-top: 1px solid #E5E7EB;
+  background: #fff;
+}
+.footerSub {
+  color: #C9A227;
+  font-weight: 700;
+}

@@ -1,0 +1,89 @@
+.bar {
+  background: #1A1A1A;
+  border-bottom: 1px solid rgba(201,162,39,.2);
+  padding: 0.9rem 1.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 3px 20px rgba(0,0,0,.35);
+}
+.inner {
+  max-width: 1060px;
+  margin: 0 auto;
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.searchWrap {
+  position: relative;
+  flex: 1;
+  min-width: 180px;
+}
+.searchIcon {
+  position: absolute;
+  right: 0.8rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.9rem;
+  pointer-events: none;
+}
+.searchInput {
+  width: 100%;
+  background: rgba(255,255,255,.07);
+  border: 1.5px solid rgba(201,162,39,.3);
+  border-radius: 10px;
+  padding: 0.55rem 2.4rem 0.55rem 2.4rem;
+  font-family: 'Noto Kufi Arabic', sans-serif;
+  font-size: 0.85rem;
+  color: #fff;
+  outline: none;
+  direction: rtl;
+  transition: border-color 0.2s;
+}
+.searchInput::placeholder { color: rgba(255,255,255,.35); }
+.searchInput:focus { border-color: #C9A227; }
+.clearBtn {
+  position: absolute;
+  left: 0.7rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: rgba(255,255,255,.4);
+  cursor: pointer;
+  font-size: 0.85rem;
+  padding: 0.2rem;
+  transition: color 0.15s;
+}
+.clearBtn:hover { color: #C9A227; }
+.chips {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+.chip {
+  border: 1.5px solid rgba(255,255,255,.2);
+  background: none;
+  color: rgba(255,255,255,.6);
+  border-radius: 20px;
+  padding: 0.28rem 0.75rem;
+  font-family: 'Noto Kufi Arabic', sans-serif;
+  font-size: 0.74rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.18s;
+  white-space: nowrap;
+}
+.chip:hover { border-color: #C9A227; color: #C9A227; }
+.chip.active { background: #C9A227; border-color: #C9A227; color: #0F0F0F; }
+.count {
+  background: rgba(201,162,39,.15);
+  border: 1px solid rgba(201,162,39,.3);
+  color: #C9A227;
+  border-radius: 20px;
+  padding: 0.25rem 0.7rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  white-space: nowrap;
+}

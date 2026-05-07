@@ -1,0 +1,21 @@
+.wrap {
+  text-align: center;
+  padding: 3.5rem 1rem;
+  grid-column: 1 / -1;
+}
+.icon { font-size: 3rem; margin-bottom: 0.75rem; }
+.title { font-size: 1.05rem; font-weight: 700; margin-bottom: 0.4rem; color: #374151; }
+.sub { font-size: 0.85rem; color: #64748B; margin-bottom: 1rem; }
+.btn {
+  background: #C9A227;
+  border: none;
+  border-radius: 10px;
+  padding: 0.5rem 1.3rem;
+  font-family: 'Noto Kufi Arabic', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #0F0F0F;
+  cursor: pointer;
+  transition: opacity 0.18s;
+}
+.btn:hover { opacity: 0.85; }
